@@ -4,6 +4,6 @@ server.use(express.json());
 
 // Routers
 import hello from './routes/hello.js';
-server.use('/api/hello', hello);
+server.use('/hello', hello);
 
 export default server;
